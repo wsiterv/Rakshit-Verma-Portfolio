@@ -128,15 +128,15 @@ const handleSubmit = (e) => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-              Hi, I'm <span className="text-blue-600">Rakshit Verma</span>
-            </h1>
-            <p className="text-xl text-gray-600 mb-4 max-w-2xl">
-              I ought to be a <span ref={typedRef} className="text-blue-600"></span>
-            </p>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              I build elegant solutions and create meaningful digital experiences
-            </p>
+           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
+  Hi, I'm <span className="text-blue-600">Rakshit Verma</span>
+</h1>
+<p className="text-xl text-gray-600 mb-4 max-w-2xl">
+  I'm a <span ref={typedRef} className="text-blue-600"></span>
+</p>
+<p className="text-xl text-gray-600 mb-8 max-w-2xl">
+  Transforming ideas into scalable web applications with modern technologies and AI integration
+</p>
             <div className="flex space-x-4">
              <a
   href="/resume.pdf"
@@ -175,16 +175,18 @@ const handleSubmit = (e) => {
             </div>
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6 text-gray-800">About Me</h2>
-              <p className="text-gray-600 mb-4">
-                I'm a passionate developer focused on creating clean, user-friendly experiences.
-                With expertise in modern web technologies, I build applications that are both
-                functional and aesthetically pleasing.
-              </p>
-              <p className="text-gray-600 mb-8">
-                My journey in tech began with a curiosity about how things work, which evolved
-                into a career building digital solutions for real-world problems. I'm particularly
-                interested in healthcare applications and social media platforms.
-              </p>
+             <p className="text-gray-600 mb-4">
+  Full-stack developer passionate about crafting intelligent web applications that bridge 
+  technology and human needs. With expertise spanning Django backends, React frontends, 
+  and deep learning integration, I specialize in building robust solutions that combine 
+  functionality with intuitive user experiences.
+</p>
+<p className="text-gray-600 mb-8">
+  My technical journey encompasses everything from CNN-powered healthcare diagnostics to 
+  LLM-driven applications, complemented by automation tools and data processing pipelines. 
+  I thrive on transforming complex problems into elegant digital solutions, with a 
+  particular focus on healthcare technology and social platforms that create meaningful impact.
+</p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-lg shadow-sm">
                   <h3 className="font-bold text-gray-800 mb-2">Frontend</h3>
