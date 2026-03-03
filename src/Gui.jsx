@@ -108,10 +108,11 @@ const handleSubmit = (e) => {
       demo: "https://happy-blog-1.onrender.com"
     },
     {
-      name: "Skin Cancer Prediction",
-      description: "A web app that uses deep learning to predict skin cancer from images, with user-friendly interface for uploading and viewing results.",
-      tech: ["TensorFlow", "Django"],
-      github: "https://github.com/rakshverma/skin-cancer-prediction",
+      {
+  name: "Distributed Real-Time Chat Platform",
+  description: "A distributed, event-driven chat application supporting JWT-authenticated WebSocket messaging, private direct messaging via unique user IDs, and peer-to-peer WebRTC video calls. Designed with horizontal scaling using Redis Pub/Sub, durable message queuing with RabbitMQ, asynchronous persistence through Celery workers, and role-based authentication via Keycloak. Containerized multi-service architecture with production-ready reverse proxy and TLS configuration.",
+  tech: ["FastAPI", "WebSockets", "Redis", "RabbitMQ", "Celery", "PostgreSQL", "Keycloak (OIDC)", "Nginx", "Docker"],
+      github: "https://github.com/rakshverma/Chat-App.git",
       demo: ""
     },
     {
@@ -372,3 +373,4 @@ const handleSubmit = (e) => {
     </div>
   );
 }
+
