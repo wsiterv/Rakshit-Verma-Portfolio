@@ -53,12 +53,12 @@ export default function RakshitTerminal() {
         name: "Social Media Platform",
         description: "A full-stack social media application with user profiles, real-time feeds, likes, and comments.",
         tech: "React, Node.js, MongoDB, Tailwind CSS",
-      link: "https://github.com/rakshverma/Sociofy",
+      link: "https://github.com/rakshverma/Chat-App.git",
       }
     ],
     experience: [],
     contact: {
-      email: "raks@gmail.com",
+      email: "vermarakshit609@gmail.com",
       github: "https://github.com/rakshverma/",
       linkedin: "https://www.linkedin.com/in/rakshit-verma-472654313/",
       resume: "resume.pdf"
@@ -624,4 +624,5 @@ return `Email: ${contact.email}<br />` +
     </div>
   );
 }
+
 
