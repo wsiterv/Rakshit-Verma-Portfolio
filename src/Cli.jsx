@@ -43,12 +43,12 @@ export default function RakshitTerminal() {
         tech: "Django, Bootstrap",
       link: "https://github.com/rakshverma/Happy-Blog",
       },
-      {
-        name: "Skin Cancer Prediction",
-        description: "A web app that uses deep learning to predict skin cancer from images, with user-friendly interface for uploading and viewing results.",
-        tech: "TensorFlow, Django",
-      link: "https://github.com/rakshverma/skin-cancer-prediction",
-      },
+   {
+  name: "Distributed Real-Time Chat Platform",
+  description: "Architected a distributed, event-driven chat system supporting JWT-authenticated WebSocket messaging, private direct messaging via unique user IDs, and peer-to-peer WebRTC video calls. Implemented horizontal scaling using Redis Pub/Sub, durable message queues with RabbitMQ, and asynchronous persistence through Celery workers. Integrated Keycloak (OIDC) for IAM and role-based access control, configured Nginx for SSL termination and reverse proxy routing, and containerized a multi-service architecture using Docker Compose with fault isolation and production-ready deployment design.",
+  tech: "FastAPI, WebSockets, Redis, RabbitMQ, Celery, PostgreSQL, Keycloak (OIDC), Nginx, Docker, AWS Architecture Design",
+  link: "https://github.com/your-username/distributed-chat-platform",
+},
       {
         name: "Social Media Platform",
         description: "A full-stack social media application with user profiles, real-time feeds, likes, and comments.",
@@ -624,3 +624,4 @@ return `Email: ${contact.email}<br />` +
     </div>
   );
 }
+
