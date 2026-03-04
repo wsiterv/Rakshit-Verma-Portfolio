@@ -111,24 +111,7 @@ export default function Gui() {
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
-        .rv-nav {
-          position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-          background: rgba(250,250,248,0.92);
-          backdrop-filter: blur(14px);
-          border-bottom: 1px solid rgba(0,0,0,0.07);
-          padding: 0 2.5rem; height: 60px;
-          display: flex; align-items: center; justify-content: space-between;
-        }
-        .rv-nav-name {
-          font-family: 'Fraunces', serif; font-weight: 600; font-size: 1rem;
-          color: #1a1a2e; letter-spacing: -0.01em;
-        }
-        .rv-nav-links { display: flex; gap: 2.2rem; }
-        .rv-nav-links a {
-          font-size: 0.82rem; font-weight: 500; color: #64748b;
-          text-decoration: none; letter-spacing: 0.02em; transition: color 0.2s;
-        }
-        .rv-nav-links a:hover { color: #0e7490; }
+        
 
         .rv-hero {
           background: #fafaf8; position: relative; overflow: hidden;
@@ -302,16 +285,6 @@ export default function Gui() {
           .rv-hero-inner { padding: 2rem 1.5rem !important; }
         }
       `}</style>
-
-      {/* Nav */}
-      <nav className="rv-nav">
-        <span className="rv-nav-name">Rakshit Verma</span>
-        <div className="rv-nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </nav>
 
       {/* Hero */}
       <section className="rv-hero">
