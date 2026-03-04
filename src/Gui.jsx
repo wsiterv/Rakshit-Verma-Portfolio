@@ -67,8 +67,8 @@ export default function Gui() {
       tag: "ML Platform",
       description: "Web-based neural network training platform with dynamic model configuration, real-time metric streaming via SSE, file upload workflows, long-running training task management, and artifact downloads. Deployed on Railway with Gunicorn threaded workers.",
       tech: ["Django", "PyTorch", "SSE", "Docker", "Railway", "Gunicorn"],
-      github: "",
-      demo: ""
+      github: "https://github.com/rakshverma/Model-Trainer.git",
+      demo: "https://model-trainer-production.up.railway.app/"
     },
     {
       name: "Constellation Detection System",
@@ -496,3 +496,4 @@ export default function Gui() {
     </div>
   );
 }
+
